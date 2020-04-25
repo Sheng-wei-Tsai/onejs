@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. Javascript</title>
+</head>
+<body>
+  <h1 id="mr-javascript">I'm Mr. Javascript</h1>
+  <a href="#" id="anchor">Hey Javascript, how ya feeling ?</a>
+
+
+  <script>
+    var anchor = document.getElementById('anchor');
+    anchor.addEventListener('click', function(){
+    // alert("I'm so goood!!!");
+    var name = document.getElementById("mr-javascript");
+    // console.log(name);
+    name.innerHTML = "Not good bah?!"
+    });
+  </script>
+</body>
+</html>
