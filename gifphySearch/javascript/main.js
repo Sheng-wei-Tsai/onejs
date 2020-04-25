@@ -44,6 +44,7 @@ let pushToDom = input => {
   let imageUrls = response.data;
   // console.log(imageUrls)
     imageUrls.forEach(image => {
+
     let src = image.images.fixed_height.url
     console.log(src)
     let container = document.querySelector('.js-container')
